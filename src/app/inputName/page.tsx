@@ -4,7 +4,7 @@ export default function NameInput(): JSX.Element {
     return (
         <>
             <Flex align="center" height="50vh" maxHeight="900px" ml="auto" mr="auto">
-                <Flex align="center" direction="column" gap="2">
+                <Flex align="center" direction="column" gap="2" ml="auto" mr="auto">
                     <Text size="5" weight="bold">
                         お名前（ニックネーム可）
                     </Text>
